@@ -41,7 +41,7 @@ const TopSellingTable = () => {
     const projectList = configuration.liveproject;
 
     return (
-        <Card elevation={3} className="pt-5 mb-6">
+        <Card elevation={3} className="pt-5 mb-6 lg-12 md-12 sm-12">
             <div className="flex justify-between items-center px-6 mb-3">
                 <span className="card-title">Projects List</span>
                 {/* <Select size="small" defaultValue="all_time" disableUnderline>
