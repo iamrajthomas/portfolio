@@ -3,7 +3,8 @@ import { authRoles } from '../../auth/authRoles'
 
 const openSourceRoutes = [
     {
-        path: '/openSource',
+        path: '/portfolio/openSource', //change28022022
+        //path: '/openSource',
         component: React.lazy(() => import('./Analytics')),
         auth: authRoles.sa,
     }

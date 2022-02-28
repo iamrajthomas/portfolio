@@ -38,7 +38,7 @@ const Analytics = () => {
                             </h4>
                         <div>
                             <h4>
-                                <a target='_blank' href={github?.authorUrl} className="thing" tabindex="0" rel="noopener noreferrer">
+                                <a target='_blank' href={github?.authorUrl} className="thing" tabIndex="0" rel="noopener noreferrer">
                                     To Find my github repo, please  
                                     <span class='text-error'> click here. </span>
                                     </a> 

@@ -3,7 +3,7 @@ import { authRoles } from '../../auth/authRoles'
 
 const experienceRoutes = [
     {
-        path: '/experience',
+        path: '/portfolio/experience', //change28022022
         component: React.lazy(() => import('./Analytics')),
         auth: authRoles.sa,
     }

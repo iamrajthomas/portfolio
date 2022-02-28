@@ -167,19 +167,21 @@ const JwtLogin = () => {
                                         )}
                                     </div>
                                     <span className="mr-2 ml-5">or</span>
+                                    {/* //change28022022 */}
                                     <Button
                                         className="capitalize"
                                         onClick={() =>
-                                            history.push('/session/signup')
+                                            history.push('/portfolio/session/signup')
                                         }
                                     >
                                         Sign up
                                     </Button>
                                 </div>
+                                {/* //change28022022 */}
                                 <Button
                                     className="text-primary"
                                     onClick={() =>
-                                        history.push('/session/forgot-password')
+                                        history.push('/portfolio/session/forgot-password')
                                     }
                                 >
                                     Forgot password?

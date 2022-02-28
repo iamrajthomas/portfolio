@@ -3,7 +3,7 @@ import { authRoles } from '../../auth/authRoles'
 
 const profileRoutes = [
     {
-        path: '/profile',
+        path: '/portfolio/profile', //change28022022
         component: React.lazy(() => import('./Analytics')),
         auth: authRoles.sa,
     }

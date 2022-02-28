@@ -23,15 +23,17 @@ import mapRoutes from './views/map/MapRoutes'
 
 const redirectRoute = [
     {
-        path: '/',
+        path: '/' || '/portfolio',
         exact: true,
-        component: () => <Redirect to="/profile/default" />,
+        //component: () => <Redirect to="/profile/default" />,
+        component: () => <Redirect to="/portfolio/profile/default" />, //change28022022
     }
 ]
 
 const errorRoute = [
     {
-        component: () => <Redirect to="/session/404" />,
+        //component: () => <Redirect to="/portfolio/session/404" />,
+        component: () => <Redirect to="/portfolio/session/404" />, //change28022022
     },
 ]
 

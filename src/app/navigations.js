@@ -14,12 +14,12 @@ export const navigations = [
     },
     {
         name: 'Profile',
-        path: '/profile',
+        path: '/portfolio/profile', //change28022022
         icon: 'assignment_ind',
     },    
     {
         name: 'OpenSource',
-        path: '/opensource',
+        path: '/portfolio/opensource', //change28022022
         icon: 'cloud_done',
     },
     
@@ -36,37 +36,37 @@ export const navigations = [
                 name: 'ICI',
                 icon: 'favorite_border',
                 iconText: 'favorite_border',
-                path: '/project/ici',
+                path: '/portfolio/project/ici', //change28022022
             },
             {
                 name: 'ADGA',
                 icon: 'star',
                 iconText: 'star',
-                path: '/project/adga',
+                path: '/portfolio/project/adga', //change28022022
             },
             {
                 name: 'SigmaFlow',
                 icon: 'work',
                 iconText: 'work',
-                path: '/project/sigmaflow',
+                path: '/portfolio/project/sigmaflow', //change28022022
             },
             {
                 name: 'CTS',
                 icon: 'insights',
                 iconText: 'insights',
-                path: '/project/cts',
+                path: '/portfolio/project/cts', //change28022022
             },
             {
                 name: 'WiseConnect',
                 icon: 'health_and_safety',
                 iconText: 'health_and_safety',
-                path: '/project/wiseconnect',
+                path: '/portfolio/project/wiseconnect', //change28022022
             },
             {
                 name: 'Plexosoft',
                 icon: 'psychology',
                 iconText: 'psychology',
-                path: '/project/plexosoft',
+                path: '/portfolio/project/plexosoft', //change28022022
             },
         ],
     },
@@ -103,7 +103,7 @@ export const navigations = [
     },
     {
         name: 'Experience',
-        path: '/experience',
+        path: '/portfolio/experience', //change28022022
         icon: 'laptop_mac',
     },
     
@@ -113,7 +113,7 @@ export const navigations = [
     },
     {
         name: 'Education',
-        path: '/education',
+        path: '/portfolio/education', //change28022022
         icon: 'developer_board',
     },
     {
@@ -122,7 +122,7 @@ export const navigations = [
     },
     {
         name: 'Location',
-        path: '/geolocation',
+        path: '/portfolio/geolocation', //change28022022
         icon: 'explore',
     },
     {
@@ -131,7 +131,7 @@ export const navigations = [
     },
     {
         name: 'Hobby',
-        path: '/hobby',
+        path: '/portfolio/hobby', //change28022022
         icon: 'sports_esports',
     },
     {
@@ -140,7 +140,7 @@ export const navigations = [
     },
     {
         name: 'Contact',
-        path: '/contactme',
+        path: '/portfolio/contactme', //change28022022
         icon: 'contacts',
     },
     

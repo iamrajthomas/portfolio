@@ -2,7 +2,9 @@ import React from 'react'
 import { 
     //Grid, 
     Card, 
-    Avatar } from '@material-ui/core'
+    Avatar,
+    Button } from '@material-ui/core'
+import { Link } from 'react-router-dom'
 
 const AvatarCard = ({ user }) => {
 
@@ -17,7 +19,22 @@ const AvatarCard = ({ user }) => {
             />
             <div className="card-title mt-3 text-center text-24 align-middle">{user.name.toUpperCase()}</div>
             <div className="card-subtitle mt-3 text-center capitalize text-10 align-middle">{user.designation}, {user.location}</div>
-            {/* <div className="card-title mt-3 text-center text-24 align-middle">{process.env.PUBLIC_URL}{user.avatar}</div> */}
+
+            {/* <div className='card-title mt-3 text-center text-24 align-middle'>
+                <Link to="/">
+                    <Button
+                        className="capitalize"
+                        variant="contained"
+                        color="primary"
+                        onClick={(e) => { e.preventDefault(); window.location.href = `${process.env.PUBLIC_URL}${user.cvUrl}`;
+                        }}
+                    >
+                    Download My CV
+                    </Button>
+                </Link>
+            </div> */}
+
+
         </Card>
     )
 }

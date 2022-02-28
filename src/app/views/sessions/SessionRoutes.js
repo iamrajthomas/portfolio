@@ -5,19 +5,19 @@ import JwtLogin from './login/JwtLogin'
 
 const sessionRoutes = [
     {
-        path: '/session/signup',
+        path: '/portfolio/session/signup', //change28022022
         component: JwtRegister,
     },
     {
-        path: '/session/signin',
+        path: '/portfolio/session/signin', //change28022022
         component: JwtLogin,
     },
     {
-        path: '/session/forgot-password',
+        path: '/portfolio/session/forgot-password', //change28022022
         component: ForgotPassword,
     },
     {
-        path: '/session/404',
+        path: '/portfolio/session/404', //change28022022
         component: NotFound,
     },
 ]

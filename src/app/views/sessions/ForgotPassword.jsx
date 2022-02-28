@@ -69,7 +69,7 @@ const ForgotPassword = () => {
                                         'email is not valid',
                                     ]}
                                 />
-                                <div className="flex items-center">
+                                <div className="items-center">
                                     <Button
                                         variant="contained"
                                         color="primary"
@@ -78,7 +78,8 @@ const ForgotPassword = () => {
                                         Reset Password
                                     </Button>
                                     <span className="ml-4 mr-2">or</span>
-                                    <Link to="/session/signin">
+                                    {/* //change28022022 */}
+                                    <Link to="/portfolio/session/signin">
                                         <Button className="capitalize">
                                             Sign in
                                         </Button>

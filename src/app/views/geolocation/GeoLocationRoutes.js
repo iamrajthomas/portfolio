@@ -3,7 +3,7 @@ import { authRoles } from '../../auth/authRoles'
 
 const geoLocationRoutes = [
     {
-        path: '/geolocation',
+        path: '/portfolio/geolocation', //change28022022
         component: React.lazy(() => import('./Analytics')),
         auth: authRoles.sa,
     }

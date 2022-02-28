@@ -32,7 +32,7 @@ const Analytics = () => {
                     <Grid item lg={12} md={12} sm={12} xs={12}>
                         {
                             userprofile?.contactEmail &&
-                            <h4>Feel free to reach out for any collaboration/ query at "<span class='text-green'>{userprofile?.contactEmail}</span>".</h4>
+                            <h4>Feel free to reach out for any collaboration/ query at "<span className='text-green'>{userprofile?.contactEmail}</span>".</h4>
                         }
                         <h4>Thankyou.</h4>
                     </Grid>

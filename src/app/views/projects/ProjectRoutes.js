@@ -8,27 +8,27 @@ import Plexosoft from './plexosoft'
 
 const projectRoutes = [
     {
-        path: '/project/adga',
+        path: '/portfolio/project/adga', //change28022022
         component: ADGA
     },
     {
-        path: '/project/cts',
+        path: '/portfolio/project/cts', //change28022022
         component: CTS
     },
     {
-        path: '/project/ici',
+        path: '/portfolio/project/ici', //change28022022
         component: ICI
     },
     {
-        path: '/project/sigmaflow',
+        path: '/portfolio/project/sigmaflow', //change28022022
         component: SigmaFlow
     },
     {
-        path: '/project/wiseconnect',
+        path: '/portfolio/project/wiseconnect', //change28022022
         component: WiseConnect
     },
     {
-        path: '/project/plexosoft',
+        path: '/portfolio/project/plexosoft', //change28022022
         component: Plexosoft
     }
 ]

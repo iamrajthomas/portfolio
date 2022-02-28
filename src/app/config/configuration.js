@@ -17,7 +17,8 @@ const configuration = {
         contactEmail: 'iamrajthomas@gmail.com',
         avatar: '/assets/images/rt/rt-face.jpg',
         designation: 'Senior Product Engineer - Software Development',
-        location: 'India'
+        location: 'India',
+        cvUrl: '/assets/doc/Rajesh_Thomas_Resume_2022.pdf',
     },
     github: {
         name: 'Rajesh Thomas',

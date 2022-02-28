@@ -58,7 +58,7 @@ const Footer = () => {
             </a> */}
                         {/* <a href=""> */}
                         <Card>
-                            <a href={github?.authorUrl} className="thing" tabindex="0" target='_blank' rel="noopener noreferrer">{github?.name}</a>
+                            <a href={github?.authorUrl} className="thing" tabIndex="0" target='_blank' rel="noopener noreferrer">{github?.name}</a>
                         </Card>
                         {/* <Button variant="contained" color="secondary">
                             Get MatX Pro
@@ -67,7 +67,7 @@ const Footer = () => {
                         <span className="m-auto"></span>
                         <p className="m-0">
                             {portfolio?.tagline || ''} | 
-                            <a href={github?.authorUrl} className="thing" tabindex="1" target='_blank' rel="noopener noreferrer">{github?.username}</a>
+                            <a href={github?.authorUrl} className="thing" tabIndex="1" target='_blank' rel="noopener noreferrer"> {github?.username}</a>
                         </p>
                     </div>
                 </Toolbar>
