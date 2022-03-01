@@ -57,12 +57,12 @@ const TopSellingTable = () => {
                 >
                     <TableHead>
                         <TableRow>
-                            <TableCell className="px-6" colSpan={1}>
-                                #
+                            <TableCell className="px-6" colSpan={4}>
+                                # Name
                             </TableCell>
-                            <TableCell className="px-0" colSpan={2}>
+                            {/* <TableCell className="px-0" colSpan={2}>
                                 Name
-                            </TableCell>
+                            </TableCell> */}
                             <TableCell className="px-0" colSpan={3}>
                                 Role
                             </TableCell>
@@ -79,24 +79,33 @@ const TopSellingTable = () => {
                             <TableRow key={index} hover>
                                 <TableCell
                                     className="px-0 capitalize"
-                                    colSpan={1}
+                                    colSpan={4}
                                     align="left"
+                                    sx={{ px: 0, textTransform: 'capitalize' }}
                                 >
-                                    <div className="flex items-center">
+                                    <div className="flex items-center" alignItems="center">
                                         <Avatar 
-                                        src={`${process.env.PUBLIC_URL}${product.imgUrl}`} 
-                                        // src={product.imgUrl}
-                                        //src={`${process.env.PUBLIC_URL}/assets/images/rt/rt-face.jpg`} 
-                                        />
+                                            src={`${process.env.PUBLIC_URL}${product.imgUrl}`}  
+                                            // src={product.imgUrl}
+                                            //src={`${process.env.PUBLIC_URL}/assets/images/rt/rt-face.jpg`} 
+                                            />
+                                        <span className='ml-4'>
+                                            {product.shorttitle}
+                                        </span>
                                     </div>
+                                    {/* <div className="flex items-center">
+                                        <Avatar 
+                                        src={`${process.env.PUBLIC_URL}${product.imgUrl}`}  // src={product.imgUrl} //src={`${process.env.PUBLIC_URL}/assets/images/rt/rt-face.jpg`} 
+                                        />
+                                    </div> */}
                                 </TableCell>
-                                <TableCell
+                                {/* <TableCell
                                     className="px-0 capitalize"
                                     align="left"
                                     colSpan={2}
                                 >
                                     {product.shorttitle}
-                                </TableCell>
+                                </TableCell> */}
                                 <TableCell
                                     className="px-0 capitalize"
                                     align="left"
