@@ -155,7 +155,7 @@ const JwtLogin = () => {
                                             disabled={loading}
                                             type="submit"
                                         >
-                                            Sign in
+                                            Sign In To View Profile 
                                         </Button>
                                         {loading && (
                                             <CircularProgress
@@ -166,26 +166,26 @@ const JwtLogin = () => {
                                             />
                                         )}
                                     </div>
-                                    <span className="mr-2 ml-5">or</span>
+                                    {/* <span className="mr-2 ml-5">or</span> */}
                                     {/* //change28022022 */}
-                                    <Button
+                                    {/* <Button
                                         className="capitalize"
                                         onClick={() =>
                                             history.push('/portfolio/session/signup')
                                         }
                                     >
                                         Sign up
-                                    </Button>
+                                    </Button> */}
                                 </div>
                                 {/* //change28022022 */}
-                                <Button
+                                {/* <Button
                                     className="text-primary"
                                     onClick={() =>
                                         history.push('/portfolio/session/forgot-password')
                                     }
                                 >
                                     Forgot password?
-                                </Button>
+                                </Button> */}
 
                                 {/* <p className='text-green'>Donot change the pre-populated Email Address.</p> */}
                             </ValidatorForm>
