@@ -15,6 +15,7 @@ import { Grid,
 // import { useTheme } from '@material-ui/styles'
 // import useAuth from 'app/hooks/useAuth'
 // import BasicMap from '../map/BasicMap'
+import { SimpleCard } from 'app/components'
 import MarkerMap from '../map/MarkerMap'
 import configuration from "../../config/configuration";
 
@@ -26,11 +27,18 @@ const Analytics = () => {
     const filteredgeolocation = geolocation.filter(x => x.id === geolocation[0].displayLocId)[0];
     return (
 
+
+        
+
         <Fragment>
-            <div className="analytics m-sm-30 mt-6">
+            <div className="m-sm-30">
                 <h4 className="card-title text-muted mb-4">
                     Geo Location
                 </h4>
+            <SimpleCard>
+                <p><b>Work Location: </b>{filteredgeolocation?.loc}</p>
+                <div className="analytics m-sm-30 mt-6">
+                
                 {/* <Grid container spacing={0}>
                     <Grid item lg={12} md={12} sm={12} xs={12}>
                         <BasicMap></BasicMap>
@@ -47,15 +55,17 @@ const Analytics = () => {
                     </Grid>
                 </Grid> */}
 
-                <Grid container spacing={0}>
-                    <Grid item lg={12} md={12} sm={12} xs={12}>
-                        <MarkerMap
+                    <Grid container spacing={0}>
+                        <Grid item lg={12} md={12} sm={12} xs={12}>
+                            <MarkerMap
                             defaultCenter={{ lat: filteredgeolocation?.lat, lng: filteredgeolocation?.lng }}
                             position={{ lat: filteredgeolocation?.lat, lng: filteredgeolocation?.lng }}
                             displayText={filteredgeolocation?.loc}
-                        ></MarkerMap>                            
+                            ></MarkerMap>                            
+                        </Grid>
                     </Grid>
-                </Grid>
+                </div>
+            </SimpleCard>
             </div>
         </Fragment>
 

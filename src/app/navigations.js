@@ -34,8 +34,8 @@ export const navigations = [
         children: [
             {
                 name: 'ICI',
-                icon: 'favorite_border',
-                iconText: 'favorite_border',
+                icon: 'gavel',
+                iconText: 'gavel',
                 path: '/portfolio/project/ici', //change28022022
             },
             {
@@ -108,7 +108,7 @@ export const navigations = [
     },
     
     {
-        label: 'Education',
+        label: 'Academic',
         type: 'label',
     },
     {
@@ -135,11 +135,20 @@ export const navigations = [
         icon: 'sports_esports',
     },
     {
-        label: 'Contact Me',
+        label: 'About',
         type: 'label',
     },
     {
-        name: 'Contact',
+        name: 'About Me',
+        path: '/portfolio/aboutme', //change28022022
+        icon: 'info',
+    },
+    {
+        label: 'Contact',
+        type: 'label',
+    },
+    {
+        name: 'Contact Me',
         path: '/portfolio/contactme', //change28022022
         icon: 'contacts',
     },

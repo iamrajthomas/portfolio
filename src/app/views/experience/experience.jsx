@@ -1,6 +1,6 @@
 import React from 'react'
 import { Breadcrumb, 
-    // SimpleCard 
+    SimpleCard,
 } from 'app/components'
 import { Card } from '@material-ui/core'
 
@@ -8,24 +8,23 @@ const Experience = ({ filteredExperienceList = [], orgPath = '', orgName = '', c
     
     return (
         <div className="m-sm-30">
-
+            <SimpleCard >
             {
                 filteredExperienceList.length > 0 &&
                 filteredExperienceList.map((exp, index) => {
                     return(
                         <div key={index}>
-
                             <Card title='' className={`px-5 py-3 ${className}`}>
                                 <div className="mb-sm-30">
                                     <Breadcrumb
                                         routeSegments={[
                                             { name: 'Organization', path: orgPath },
-                                            // { name: "[" + exp.id + "]" + " " + orgName },
                                             { name: `[${exp.id}] ${orgName}` },
                                         ]}
                                     />
                                 </div>
                                 <p><b>Organization Name: </b>{exp?.organization}</p>
+                                <p><b>Location: </b>{exp?.location}</p>
                                 <p><b>Position: </b>{exp?.position}</p>
                                 <p><b>Tenure: </b>{exp?.from} - {exp?.to}</p>
                             </Card>
@@ -35,6 +34,7 @@ const Experience = ({ filteredExperienceList = [], orgPath = '', orgName = '', c
                 })
             }
             {/* <div className="py-3" /> */}
+            </SimpleCard>
         </div>
     )
 }

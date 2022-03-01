@@ -28,7 +28,7 @@ const Analytics = () => {
     return (
         <Fragment>
             <div className="analytics m-sm-30 mt-6">
-                <h4 className="card-title text-muted mb-4">
+                <h4 className="card-title text-muted mb-0">
                     Professional Experiences
                 </h4>
                 <Grid container spacing={0}>

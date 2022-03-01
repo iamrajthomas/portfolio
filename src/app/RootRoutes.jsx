@@ -10,6 +10,7 @@ import openSourceRoutes from './views/opensource/OpenSourceRoutes'
 import hobbyRoutes from './views/hobby/HobbyRoutes'
 import geoLocationRoutes from './views/geolocation/GeoLocationRoutes'
 import contactMeRoutes from './views/contactme/ContactMeRoutes'
+import aboutMeRoutes from './views/aboutme/AboutMeRoutes'
 
 import utilitiesRoutes from './views/utilities/UtilitiesRoutes'
 
@@ -47,6 +48,7 @@ const routes = [
     ...hobbyRoutes,
     ...geoLocationRoutes,
     ...contactMeRoutes,
+    ...aboutMeRoutes,
     //=================================
     ...materialRoutes,
     ...utilitiesRoutes,

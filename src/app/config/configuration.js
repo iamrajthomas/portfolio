@@ -77,7 +77,7 @@ const configuration = {
             title: 'ICI - Contract Lifecycle Management',
             domain: 'Contract Management',
             description: 'ICI CLM is a product-based web application. This solution starts with the core ICI contract management platform, which covers the full lifecycle of contract management capabilities beginning with intelligent contract setup and then continuing with authoring, approvals, negotiations, and all other aspects of ongoing contract operations. The true value of ICI begins after a contract is signed, providing full visibility and powerful tools to ensure what you and your partners have committed to happens, even as conditions change.',
-            responsibilities: 'Working as patch owner, as part of HyperCare-Team, involved in end to end project deliverables like planning for release scope, distributing work-items to colleagues/ subordinates, actively working on the PBIs/ project deliverables es, handling customer feedbacks/ escalations, extension of releases, automation, Veracode (security changes evaluation), performance,  getting the work-items to closure/ follow-ups, taking decisions on the resolutions, prioritizing the tech challenges, releasing product with all artifacts and draw schema for the up-coming schedules.',
+            responsibilities: 'Working as patch owner, as part of HyperCare-Team, involved in end to end project deliverables like planning for release scope, distributing work-items to colleagues/ subordinates, actively working on the PBIs/ project deliverables, handling customer feedbacks/ escalations, extension of releases, automation, Veracode (security changes evaluation), performance,  getting the work-items to closure/ follow-ups, taking decisions on the resolutions, prioritizing the tech challenges, releasing product with all artifacts and draw schema for the up-coming schedules.',
             role: 'Senior Product Engineer',
             techstack: {
                 frontEnd: ['Razor View Engine', 'React JS'],
@@ -86,7 +86,7 @@ const configuration = {
                 others: ['Automation', 'Veracode']
             },
             organization: 'Harman Connected Services Corp India Private Ltd (Client Location: Icertis - Applied Cloud)',
-            duration: '2 Year(s)',
+            duration: '2 Year(s) and 4 Month(s)',
             isactive: true
         },
         { 
@@ -184,6 +184,7 @@ const configuration = {
         { 
             id: 4,
             organization: 'Harman Connected Services',
+            location: 'Pune, India',
             position: 'Senior Engineer - Product Development',
             from: 'December 2019 ',
             to: 'Present'
@@ -191,6 +192,7 @@ const configuration = {
         { 
             id: 3,
             organization: 'Case Flow Technologies',
+            location: 'Pune, India',
             position: 'Software Engineer',
             from: 'February 2019',
             to: 'December 2019'
@@ -198,6 +200,7 @@ const configuration = {
         { 
             id: 2,
             organization: 'InfoVision Labs',
+            location: 'Pune, India',
             position: 'Software Developer',
             from: 'July 2018',
             to: ' February 2019'
@@ -205,6 +208,7 @@ const configuration = {
         {
             id: 1,
             organization: 'FusionStak Techlogies',
+            location: 'Pune, India',
             position: 'Junior Software Developer',
             from: 'July 2017',
             to: 'July 2018'

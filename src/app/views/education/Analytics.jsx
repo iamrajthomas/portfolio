@@ -26,7 +26,7 @@ const Analytics = () => {
 
     return (
 
-        <Fragment>
+        <Fragment className="m-sm-30">
             <div className="analytics m-sm-30 mt-6">
                 <h4 className="card-title text-muted mb-4">
                     Academic Qualifications 

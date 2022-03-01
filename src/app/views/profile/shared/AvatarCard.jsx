@@ -3,8 +3,9 @@ import {
     //Grid, 
     Card, 
     Avatar,
-    Button } from '@material-ui/core'
-import { Link } from 'react-router-dom'
+    // Button 
+} from '@material-ui/core'
+// import { Link } from 'react-router-dom'
 
 const AvatarCard = ({ user }) => {
 

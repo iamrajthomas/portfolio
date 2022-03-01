@@ -3,6 +3,7 @@ import { Grid,
     // Card, 
     // Avatar 
 } from '@material-ui/core'
+import { SimpleCard } from 'app/components'
 // import DoughnutChart from './shared/Doughnut'
 // import StatCards from './shared/StatCards'
 // import TopSellingTable from './shared/TopSellingTable'
@@ -24,19 +25,23 @@ const Analytics = () => {
     return (
 
         <Fragment>
-            <div className="analytics m-sm-30 mt-6">
+            <div className="m-sm-30">
                 <h4 className="card-title text-muted mb-4">
                     Contact Me 
                 </h4>
-                <Grid container spacing={0}>
-                    <Grid item lg={12} md={12} sm={12} xs={12}>
-                        {
-                            userprofile?.contactEmail &&
-                            <h4>Feel free to reach out for any collaboration/ query at "<span className='text-green'>{userprofile?.contactEmail}</span>".</h4>
-                        }
-                        <h4>Thankyou.</h4>
-                    </Grid>
-                </Grid>
+                <SimpleCard>
+                    <div className="analytics m-sm-30 mt-6">
+                        <Grid container spacing={0}>
+                            <Grid item lg={12} md={12} sm={12} xs={12}>
+                            {
+                                userprofile?.contactEmail &&
+                                <h4>Feel free to reach out for any collaboration/ query at "<span className='text-green'>{userprofile?.contactEmail}</span>".</h4>
+                            }
+                            <h4>Thankyou.</h4>
+                            </Grid>
+                        </Grid>
+                    </div>
+                </SimpleCard>
             </div>
         </Fragment>
 
