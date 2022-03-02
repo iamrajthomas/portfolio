@@ -139,7 +139,7 @@ const configuration = {
                 db: ['SQL Server 2016'],
                 others: ['JQuery']
             },
-            organization: 'FusionStak Techlogies Pvt Ltd',
+            organization: 'FusionStak Technologies Pvt Ltd',
             duration: '1 Year(s)',
             isactive: true
         },
@@ -157,7 +157,7 @@ const configuration = {
                 db: ['SQL Server 2016'],
                 others: []
             },
-            organization: 'FusionStak Techlogies Pvt Ltd',
+            organization: 'FusionStak Technologies Pvt Ltd',
             duration: '6 Month(s)',
             isactive: true
         },
@@ -175,7 +175,7 @@ const configuration = {
                 db: ['SQL Server 2016'],
                 others: ['Bootstrap']
             },
-            organization: 'FusionStak Techlogies Pvt Ltd',
+            organization: 'FusionStak Technologies Pvt Ltd',
             duration: '1 Year(s)',
             isactive: true
         },
@@ -207,7 +207,7 @@ const configuration = {
         },
         {
             id: 1,
-            organization: 'FusionStak Techlogies',
+            organization: 'FusionStak Technologies',
             location: 'Pune, India',
             position: 'Junior Software Developer',
             from: 'July 2017',
